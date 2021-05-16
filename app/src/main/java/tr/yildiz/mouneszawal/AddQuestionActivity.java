@@ -71,8 +71,7 @@ public class AddQuestionActivity extends AppCompatActivity implements AdapterVie
                     sndUploader.setText(addition.toString().substring(addition.toString().lastIndexOf("/")+1));
                 }else if(this.getContentResolver().getType(addition).contains("image")){
                     imgUploader.setText(addition.toString().substring(addition.toString().lastIndexOf("/")+1));
-                }else if (this.getContentResolver().getType(addition).contains("video" +
-                        "0")){
+                }else if (this.getContentResolver().getType(addition).contains("video")){
                     vidUploader.setText(addition.toString().substring(addition.toString().lastIndexOf("/")+1));
                 }
             }
