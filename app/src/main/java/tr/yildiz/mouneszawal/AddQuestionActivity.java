@@ -173,7 +173,7 @@ public class AddQuestionActivity extends AppCompatActivity implements AdapterVie
                         b.putString("option4",optionD.getText().toString().trim());
                         b.putString("option5",optionE.getText().toString().trim());
                         b.putInt("rightAns",rightAnswer);
-                        b.putString("addition",addition.toString());
+                        b.putString("addition",(addition != null ? addition.toString() : "null"));
                         resultIntent.putExtras(b);
 
                         setResult(RESULT_OK,resultIntent);
