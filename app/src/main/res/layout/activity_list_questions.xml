@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/selectionLay"
+        android:visibility="gone"
+        android:layout_margin="10dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Exam duration |min|"
+                android:gravity="center"
+                android:textColor="#02475e"
+                android:textSize="6pt"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Question Score"
+                android:gravity="center"
+                android:textColor="#02475e"
+                android:textSize="6pt"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Difficulty Level |2-5|"
+                android:gravity="center"
+                android:textColor="#02475e"
+                android:textSize="6pt"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/getDuration"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/getScore"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/getDiffLevel"
+            />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Exam Title:"
+                android:textColor="#02475e"
+                android:textSize="8pt"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/getTitle"
+                android:inputType="text"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/createExam"
+                android:text="Create Exam"/>
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/list_item"/>
+
+
+    </LinearLayout>
+

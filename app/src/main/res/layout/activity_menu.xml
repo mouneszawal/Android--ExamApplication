@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MenuActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_centerInParent="true"
+        tools:context=".AddQuestionActivity"
+        >
+
+        <Button
+            android:id="@+id/profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:text="view profile"
+            android:textColor="#FFFFFF"
+            android:textSize="8pt"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/addquestion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:text="Add a Question"
+            android:textColor="#FFFFFF"
+            android:textSize="8pt"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/listQuest"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:text="List Questions"
+            android:textColor="#FFFFFF"
+            android:textSize="8pt"
+            android:padding="8dp"
+            />
+
+        <Button
+            android:id="@+id/createExam"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:text="Create an exam"
+            android:textColor="#FFFFFF"
+            android:textSize="8pt"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/exams"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:text="List my Exams"
+            android:textColor="#FFFFFF"
+            android:textSize="8pt"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/settings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:text="Exam settings"
+            android:textColor="#FFFFFF"
+            android:textSize="8pt"
+            android:padding="8dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
