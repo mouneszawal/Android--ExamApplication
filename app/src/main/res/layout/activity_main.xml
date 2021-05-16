@@ -5,71 +5,72 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginTop="20mm"
-    >
-    <LinearLayout
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:context=".MainActivity"
-        android:padding="50dp"
-        android:layout_margin="25dp"
-        android:orientation="vertical"
-        android:layout_centerInParent="true"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20mm"
         >
-
-        <EditText
-            android:id="@+id/email"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:hint="Email"
-            android:inputType="textPersonName"
-            />
-
-        <EditText
-            android:id="@+id/password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:hint="Password"
-            android:inputType="textPassword"
-            />
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5mm"
+            tools:context=".MainActivity"
+            android:padding="50dp"
+            android:layout_margin="25dp"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
             >
-            <Button
-                android:id="@+id/button"
-                android:layout_width="112dp"
-                android:layout_height="49dp"
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:onClick="onBtnClick"
-                android:text="Log In"
-                app:backgroundTint="#B89D9D"
-                android:layout_centerHorizontal="true"/>
+                android:hint="Email"
+                android:inputType="textPersonName"
+                />
 
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="112dp"
-                android:layout_height="49dp"
-                android:onClick="onSigClick"
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="Sign Up"
-                android:layout_below="@+id/button"
-                app:backgroundTint="#B89D9D"
-                android:layout_centerHorizontal="true"/>
-        </RelativeLayout>
+                android:hint="Password"
+                android:inputType="textPassword"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5mm"
+                >
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:onClick="onBtnClick"
+                    android:text="Log In"
+                    app:backgroundTint="#B89D9D"
+                    android:layout_centerHorizontal="true"/>
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onSigClick"
+                    android:layout_margin="16dp"
+                    android:text="Sign Up"
+                    android:layout_below="@+id/button"
+                    app:backgroundTint="#B89D9D"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
 
 
 
 
 
-    </LinearLayout>
-</RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
 
 </ScrollView>
 

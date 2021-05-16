@@ -9,9 +9,9 @@
         android:icon="@mipmap/ic_launcher_round"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
+        android:supportsRtl="false"
         android:theme="@style/Theme.MounesZawal">
-        <activity android:name=".ListExams"></activity>
+        <activity android:name=".ListExams" />
         <activity android:name=".ExamSettings" />
         <activity android:name=".ListQuestions" />
         <activity android:name=".MenuActivity" />
