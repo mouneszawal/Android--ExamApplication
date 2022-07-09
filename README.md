@@ -1,4 +1,4 @@
-# Introduction to mobile Programming | Second-Assignment
+# Introduction to mobile Programming Course | Second-Assignment
 Pre-made account information: </br>
 Email: test@gmail.com </br>
 Password: test1234 </br>
